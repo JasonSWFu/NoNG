@@ -7,6 +7,12 @@ This is the demo page of our paper submitted to ICLR:
 
 ###### LibriTTS
 
+**Example 1: 116_288046_000004_000007.wav**
+
+Original transcript: And since we are doomed to **know the truth**, let us cultivate a love for it.	
+
+New transcript: And since we are doomed to **possess and seek knowledge**, let us cultivate a love for it.
+
 [**Original**:]
 
 <audio style="width:320px" controls="controls">
