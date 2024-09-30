@@ -3,9 +3,75 @@
 This is the demo page of our paper submitted to ICLR 2025.
 
 
+### 1. Examples of editing speech from movie/Youtube:
+
+**Example 1-1: [**Spider-Man**](https://www.youtube.com/watch?v=guuYU74wU70&t=71s) (2002) **
+
+<img src="img/Spider.png"/>
+
+***Original transcript:*** With **Great Power**, comes Great Responsibility  	
+
+***Target transcript:*** With **more GPU**, comes Great Responsibility.
+
+[**Original**:]
+
+<audio style="width:320px" controls="controls">
+	<source src="wavs/With Great Power Comes Great Responsibility.wav" type="audio/wav" />
+</audio>
+
+[**Proposed VoiceNoNG:**]  
+
+<audio style="width:320px" controls="controls">
+	<source src="wavs/With more GPU Comes Great Responsibility_gen 1.wav" type="audio/wav" />
+</audio>
+
+-----------------------------------------------------------
+
+**Example 1-2:**
+
+***Original transcript:*** With **Great Power**, comes Great Responsibility  	
+
+***Target transcript:*** With more **computational resources**, comes Great Responsibility.
+
+
+[**Original**:]
+
+<audio style="width:320px" controls="controls">
+	<source src="wavs/With Great Power Comes Great Responsibility.wav" type="audio/wav" />
+</audio>
+
+[**Proposed VoiceNoNG:**]  
+
+<audio style="width:320px" controls="controls">
+	<source src="wavs/With more computational resources Comes Great Responsibility_gen.wav" type="audio/wav" />
+</audio>
+
+-----------------------------------------------------------
+
+**Example 2: [**Harry Potter and the Philosopher's Stone**](https://youtu.be/ibRcSCRAyTA?t=22) (2001) **
+
+<img src="img/Harry Potter.png"/>
+
+***Original transcript:*** Dear Mr. Potter, we are pleased to inform you that you have been **accepted at** Hogwarts School of Witchcraft and Wizardry.   	
+
+***Target transcript:*** Dear Mr. Potter, we are pleased to inform you that you have been **expelled from** Hogwarts School of Witchcraft and Wizardry.
+
+[**Original**:]
+
+<audio style="width:320px" controls="controls">
+	<source src="wavs/Dear Mr. Potter, we are pleased to inform you that you have been accepted at Hogwarts School of Witchcraft and Wizardry.wav" type="audio/wav" />
+</audio>
+
+[**Proposed VoiceNoNG:**]  
+
+<audio style="width:320px" controls="controls">
+	<source src="wavs/Dear Mr. Potter, we are pleased to inform you that you have been expelled from Hogwarts School of Witchcraft and Wizardry_gen 1.wav" type="audio/wav" />
+</audio>
+(Can keep the British Accent and even successfully generate background music!)
+
 ## RealEdit dataset
 
-### Examples of **attention errors (hallucinations)** of VoiceCraft:
+### 2. Examples of **attention errors (hallucinations)** of VoiceCraft:
 
 **Example 1: 8173_294714_000033_000000.wav**
 
@@ -23,6 +89,8 @@ for mister van brandt she rejoined and i accept your help gratefully.
 <audio style="width:320px" controls="controls">
 	<source src="wavs/8173_294714_000033_000000.redit.round-0.wav" type="audio/wav" />
 </audio>
+
+-----------------------------------------------------------
 
 **Example 2: YOU1000000101_S0000132.wav**
 
@@ -42,7 +110,7 @@ for mister van brandt she rejoined and i accept your help gratefully.
 
 
 =================================================================================================================
-### LibriTTS
+### 3. Examples from LibriTTS
 
 **Example 1: 116_288046_000004_000007.wav**
 
@@ -117,7 +185,7 @@ for mister van brandt she rejoined and i accept your help gratefully.
 	<source src="wavs/Post-quantization_2035_147960_000003_000004.redit.round-0.wav" type="audio/wav" />
 </audio>
 
-### YouTube 
+### 4. Examples from YouTube 
 
 **Example 1: YOU1000000005_S0000035.wav**
 
@@ -193,7 +261,7 @@ for mister van brandt she rejoined and i accept your help gratefully.
 	<source src="wavs/Post-quantization_YOU1000000167_S0000107.redit.round-0.wav" type="audio/wav" />
 </audio>
 
-### Spotify 
+### 5. Examples from Spotify 
 
 **Example 1: show_2CJ6f4oLCccT3fsUaWAk9k-3fVgo6u94DJHpK7uP1Qb7V.wav**
 
@@ -270,71 +338,4 @@ for mister van brandt she rejoined and i accept your help gratefully.
 </audio>
 
 =================================================================================================================
-
-### Examples of editing speech from movie/Youtube:
-
-**Example 1-1: [**Spider-Man**](https://www.youtube.com/watch?v=guuYU74wU70&t=71s) (2002) **
-
-<img src="img/Spider.png"/>
-
-***Original transcript:*** With **Great Power**, comes Great Responsibility  	
-
-***Target transcript:*** With **more GPU**, comes Great Responsibility.
-
-[**Original**:]
-
-<audio style="width:320px" controls="controls">
-	<source src="wavs/With Great Power Comes Great Responsibility.wav" type="audio/wav" />
-</audio>
-
-[**Proposed VoiceNoNG:**]  
-
-<audio style="width:320px" controls="controls">
-	<source src="wavs/With more GPU Comes Great Responsibility_gen 1.wav" type="audio/wav" />
-</audio>
-
------------------------------------------------------------
-
-**Example 1-2:**
-
-***Original transcript:*** With **Great Power**, comes Great Responsibility  	
-
-***Target transcript:*** With more **computational resources**, comes Great Responsibility.
-
-
-[**Original**:]
-
-<audio style="width:320px" controls="controls">
-	<source src="wavs/With Great Power Comes Great Responsibility.wav" type="audio/wav" />
-</audio>
-
-[**Proposed VoiceNoNG:**]  
-
-<audio style="width:320px" controls="controls">
-	<source src="wavs/With more computational resources Comes Great Responsibility_gen.wav" type="audio/wav" />
-</audio>
-
------------------------------------------------------------
-
-**Example 2: [**Harry Potter and the Philosopher's Stone**](https://youtu.be/ibRcSCRAyTA?t=22) (2001) **
-
-<img src="img/Harry Potter.png"/>
-
-***Original transcript:*** Dear Mr. Potter, we are pleased to inform you that you have been **accepted at** Hogwarts School of Witchcraft and Wizardry.   	
-
-***Target transcript:*** Dear Mr. Potter, we are pleased to inform you that you have been **expelled from** Hogwarts School of Witchcraft and Wizardry.
-
-[**Original**:]
-
-<audio style="width:320px" controls="controls">
-	<source src="wavs/Dear Mr. Potter, we are pleased to inform you that you have been accepted at Hogwarts School of Witchcraft and Wizardry.wav" type="audio/wav" />
-</audio>
-
-[**Proposed VoiceNoNG:**]  
-
-<audio style="width:320px" controls="controls">
-	<source src="wavs/Dear Mr. Potter, we are pleased to inform you that you have been expelled from Hogwarts School of Witchcraft and Wizardry_gen 1.wav" type="audio/wav" />
-</audio>
-(Can keep the British Accent and even successfully generate background music!)
-
 
