@@ -273,9 +273,7 @@ for mister van brandt she rejoined and i accept your help gratefully.
 
 ### Examples of editing speech from movie/Youtube:
 
-**Example 1-1: Spider-Man[https://www.youtube.com/watch?v=guuYU74wU70&t=71s] (2002) **
-
-![teaser](img/Spider.png)
+**Example 1-1: [**Spider-Man**](https://www.youtube.com/watch?v=guuYU74wU70&t=71s) (2002) **
 
 <img src="img/Spider.png"/>
 
@@ -318,7 +316,7 @@ for mister van brandt she rejoined and i accept your help gratefully.
 
 -----------------------------------------------------------
 
-**Example 2: Harry Potter and the Philosopher's Stone [https://youtu.be/ibRcSCRAyTA?t=22] (2001) **
+**Example 2: [**Harry Potter and the Philosopher's Stone**](https://youtu.be/ibRcSCRAyTA?t=22) (2001) **
 
 <img src="img/Harry Potter.png"/>
 
