@@ -50,7 +50,7 @@ This is the demo page of our paper submitted to ICLR 2025.
 
 **Example 2: [Harry Potter and the Philosopher's Stone](https://youtu.be/ibRcSCRAyTA?t=22) (2001)**
 
-<img src="img/Harry Potter.png"/>
+<img src="img/Potter.png"/>
 
 ***Original transcript:*** Dear Mr. Potter, we are pleased to inform you that you have been **accepted at** Hogwarts School of Witchcraft and Wizardry.   	
 
