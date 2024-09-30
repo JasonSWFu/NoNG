@@ -5,7 +5,7 @@ This is the demo page of our paper submitted to ICLR 2025.
 
 ### 1. Examples of editing speech from movie/Youtube:
 
-**Example 1-1: [**Spider-Man**](https://www.youtube.com/watch?v=guuYU74wU70&t=71s) (2002)**
+**Example 1-1: [Spider-Man]https://www.youtube.com/watch?v=guuYU74wU70&t=71s) (2002)**
 
 <img src="img/Spider.png"/>
 
@@ -48,7 +48,7 @@ This is the demo page of our paper submitted to ICLR 2025.
 
 -----------------------------------------------------------
 
-**Example 2: [**Harry Potter and the Philosopher's Stone**](https://youtu.be/ibRcSCRAyTA?t=22) (2001)**
+**Example 2: [Harry Potter and the Philosopher's Stone](https://youtu.be/ibRcSCRAyTA?t=22) (2001)**
 
 <img src="img/Harry Potter.png"/>
 
