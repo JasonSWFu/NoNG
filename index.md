@@ -5,7 +5,7 @@ This is the demo page of our paper submitted to ICLR 2025.
 
 ### 1. Examples of editing speech from movie/Youtube:
 
-**Example 1-1: [Spider-Man]https://www.youtube.com/watch?v=guuYU74wU70&t=71s) (2002)**
+**Example 1-1: [Spider-Man](https://www.youtube.com/watch?v=guuYU74wU70&t=71s) (2002)**
 
 <img src="img/Spider.png"/>
 
@@ -16,13 +16,13 @@ This is the demo page of our paper submitted to ICLR 2025.
 [**Original**:]
 
 <audio style="width:320px" controls="controls">
-	<source src="wavs/With Great Power Comes Great Responsibility.wav" type="audio/wav" />
+	<source src="wavs/Great_Responsibility.wav" type="audio/wav" />
 </audio>
 
 [**Proposed VoiceNoNG:**]  
 
 <audio style="width:320px" controls="controls">
-	<source src="wavs/With more GPU Comes Great Responsibility_gen 1.wav" type="audio/wav" />
+	<source src="wavs/Great_Responsibility_gen1.wav" type="audio/wav" />
 </audio>
 
 -----------------------------------------------------------
@@ -37,13 +37,13 @@ This is the demo page of our paper submitted to ICLR 2025.
 [**Original**:]
 
 <audio style="width:320px" controls="controls">
-	<source src="wavs/With Great Power Comes Great Responsibility.wav" type="audio/wav" />
+	<source src="wavs/Great_Responsibility.wav" type="audio/wav" />
 </audio>
 
 [**Proposed VoiceNoNG:**]  
 
 <audio style="width:320px" controls="controls">
-	<source src="wavs/With more computational resources Comes Great Responsibility_gen.wav" type="audio/wav" />
+	<source src="wavs/Great_Responsibility_gen2.wav" type="audio/wav" />
 </audio>
 
 -----------------------------------------------------------
@@ -59,13 +59,13 @@ This is the demo page of our paper submitted to ICLR 2025.
 [**Original**:]
 
 <audio style="width:320px" controls="controls">
-	<source src="wavs/Dear Mr. Potter, we are pleased to inform you that you have been accepted at Hogwarts School of Witchcraft and Wizardry.wav" type="audio/wav" />
+	<source src="wavs/Potter.wav" type="audio/wav" />
 </audio>
 
 [**Proposed VoiceNoNG:**]  
 
 <audio style="width:320px" controls="controls">
-	<source src="wavs/Dear Mr. Potter, we are pleased to inform you that you have been expelled from Hogwarts School of Witchcraft and Wizardry_gen 1.wav" type="audio/wav" />
+	<source src="wavs/Potter_gen1.wav" type="audio/wav" />
 </audio>
 (Can keep the British Accent and even successfully generate background music!)
 
@@ -110,6 +110,7 @@ for mister van brandt she rejoined and i accept your help gratefully.
 
 
 =================================================================================================================
+
 ### 3. Examples from LibriTTS
 
 **Example 1: 116_288046_000004_000007.wav**
@@ -147,6 +148,7 @@ for mister van brandt she rejoined and i accept your help gratefully.
 <audio style="width:320px" controls="controls">
 	<source src="wavs/Post-quantization_116_288046_000004_000007.redit.round-0.wav" type="audio/wav" />
 </audio>
+
 -----------------------------------------------------------
 
 **Example 2: 2035_147960_000003_000004.wav**
