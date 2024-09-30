@@ -7,23 +7,23 @@ This is the demo page of our paper submitted to ICLR:
 
 ###### LibriTTS
 
- [**Original**:]
+[**Original**:]
 <audio style="width:320px" controls="controls">
 	<source src="wavs/original_116_288046_000004_000007.wav" type="audio/wav" />
 </audio>
- [**VoiceNoNG:**]  
+[**VoiceNoNG:**]  
 <audio style="width:320px" controls="controls">
 	<source src="wavs/VoiceNoNG_116_288046_000004_000007.redit.round-0.wav" type="audio/wav" />
 </audio>
- [**VoiceCraft:**] 
+[**VoiceCraft:**] 
 <audio style="width:320px" controls="controls">
 	<source src="wavs/VoiceCraft_116_288046_000004_000007_seed1.wav" type="audio/wav" />
 </audio>
- [**Voicebox:**]
+[**Voicebox:**]
 <audio style="width:320px" controls="controls">
 	<source src="wavs/Voicebox_116_288046_000004_000007.redit.round-0.wav" type="audio/wav" />
 </audio>
- [**Post-quantization:**]
+[**Post-quantization:**]
 <audio style="width:320px" controls="controls">
 	<source src="wavs/Post-quantization_116_288046_000004_000007.redit.round-0.wav" type="audio/wav" />
 </audio>
