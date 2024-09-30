@@ -1,26 +1,47 @@
 # Introduction
 
-This is the demo page of our paper submitted to ICLR:
+This is the demo page of our paper submitted to ICLR 2025.
 
 
 ## RealEdit dataset
 
-### Examples of attention errors (hallucinations) of VoiceCraft:
+### Examples of **attention errors (hallucinations)** of VoiceCraft:
 
 **Example 1: 8173_294714_000033_000000.wav**
 
-***Target transcript:*** promise that you will not ask me to borrow any money from the bank for the bail of you for mister van brandt she rejoined and i accept your help gratefully.
+***Target transcript:*** promise that you will not ask me to borrow any money **from the bank for the bail** of you 
+for mister van brandt she rejoined and i accept your help gratefully.
+
+[**VoiceCraft:**]
+
 <audio style="width:320px" controls="controls">
 	<source src="wavs/8173_294714_000033_000000_seed1.wav" type="audio/wav" />
+</audio>
+
+[**Proposed VoiceNoNG:**]  
+
+<audio style="width:320px" controls="controls">
+	<source src="wavs/8173_294714_000033_000000.redit.round-0.wav" type="audio/wav" />
 </audio>
 
 **Example 2: YOU1000000101_S0000132.wav**
 
 ***Target transcript:*** yet anytime you and i question the schemes of the dogooders or dare to dig into any of their motives were denounced as being against their humanitarian goals they say we are always against things we are never for anything
+
+[**VoiceCraft:**]
+
 <audio style="width:320px" controls="controls">
 	<source src="wavs/YOU1000000101_S0000132_seed1.wav" type="audio/wav" />
 </audio>
 
+[**Proposed VoiceNoNG:**]  
+
+<audio style="width:320px" controls="controls">
+	<source src="wavs/YOU1000000101_S0000132.redit.round-0.wav" type="audio/wav" />
+</audio>
+
+
+=================================================================================================================
 ### LibriTTS
 
 **Example 1: 116_288046_000004_000007.wav**
@@ -35,7 +56,7 @@ This is the demo page of our paper submitted to ICLR:
 	<source src="wavs/original_116_288046_000004_000007.wav" type="audio/wav" />
 </audio>
 
-[**VoiceNoNG:**]  
+[**Proposed VoiceNoNG:**]  
 
 <audio style="width:320px" controls="controls">
 	<source src="wavs/VoiceNoNG_116_288046_000004_000007.redit.round-0.wav" type="audio/wav" />
@@ -58,7 +79,7 @@ This is the demo page of our paper submitted to ICLR:
 <audio style="width:320px" controls="controls">
 	<source src="wavs/Post-quantization_116_288046_000004_000007.redit.round-0.wav" type="audio/wav" />
 </audio>
-
+-----------------------------------------------------------
 
 **Example 2: 2035_147960_000003_000004.wav**
 
@@ -72,10 +93,10 @@ This is the demo page of our paper submitted to ICLR:
 	<source src="wavs/original_2035_147960_000003_000004.wav" type="audio/wav" />
 </audio>
 
-[**VoiceNoNG:**]  
+[**Proposed VoiceNoNG:**]  
 
 <audio style="width:320px" controls="controls">
-	<source src="wavs/VoiceNoNG_2035_147960_000003_000004.redit.round-0" type="audio/wav" />
+	<source src="wavs/VoiceNoNG_2035_147960_000003_000004.redit.round-0.wav" type="audio/wav" />
 </audio>
 
 [**VoiceCraft:**] 
@@ -110,10 +131,10 @@ This is the demo page of our paper submitted to ICLR:
 	<source src="wavs/original_YOU1000000005_S0000035.wav" type="audio/wav" />
 </audio>
 
-[**VoiceNoNG:**]  
+[**Proposed VoiceNoNG:**]  
 
 <audio style="width:320px" controls="controls">
-	<source src="wavs/VoiceNoNG_YOU1000000005_S0000035.redit.round-0" type="audio/wav" />
+	<source src="wavs/VoiceNoNG_YOU1000000005_S0000035.redit.round-0.wav" type="audio/wav" />
 </audio>
 
 [**VoiceCraft:**] 
@@ -134,6 +155,8 @@ This is the demo page of our paper submitted to ICLR:
 	<source src="wavs/Post-quantization_YOU1000000005_S0000035.redit.round-0.wav" type="audio/wav" />
 </audio>
 
+-----------------------------------------------------------
+
 **Example 2: YOU1000000167_S0000107.wav**
 
 ***Original transcript:*** he hadn't expected **london** to have quite so many legs.	 	
@@ -146,10 +169,10 @@ This is the demo page of our paper submitted to ICLR:
 	<source src="wavs/original_YOU1000000167_S0000107.wav" type="audio/wav" />
 </audio>
 
-[**VoiceNoNG:**]  
+[**Proposed VoiceNoNG:**]  
 
 <audio style="width:320px" controls="controls">
-	<source src="wavs/VoiceNoNG_YOU1000000167_S0000107.redit.round-0" type="audio/wav" />
+	<source src="wavs/VoiceNoNG_YOU1000000167_S0000107.redit.round-0.wav" type="audio/wav" />
 </audio>
 
 [**VoiceCraft:**] 
@@ -184,10 +207,10 @@ This is the demo page of our paper submitted to ICLR:
 	<source src="wavs/original_show_2CJ6f4oLCccT3fsUaWAk9k-3fVgo6u94DJHpK7uP1Qb7V.wav" type="audio/wav" />
 </audio>
 
-[**VoiceNoNG:**]  
+[**Proposed VoiceNoNG:**]  
 
 <audio style="width:320px" controls="controls">
-	<source src="wavs/VoiceNoNG_show_2CJ6f4oLCccT3fsUaWAk9k-3fVgo6u94DJHpK7uP1Qb7V.redit.round-0" type="audio/wav" />
+	<source src="wavs/VoiceNoNG_show_2CJ6f4oLCccT3fsUaWAk9k-3fVgo6u94DJHpK7uP1Qb7V.redit.round-0.wav" type="audio/wav" />
 </audio>
 
 [**VoiceCraft:**] 
@@ -208,6 +231,8 @@ This is the demo page of our paper submitted to ICLR:
 	<source src="wavs/Post-quantization_show_2CJ6f4oLCccT3fsUaWAk9k-3fVgo6u94DJHpK7uP1Qb7V.redit.round-0.wav" type="audio/wav" />
 </audio>
 
+-----------------------------------------------------------
+
 **Example 2: show_2T8QRK60cWaPQflfo6Wuc4-4oTO10xL7hQQS2fuXBy1d7.wav**
 
 ***Original transcript:*** In the pursuit of **lightness minimal** stress ultimate fulfillment.	 	
@@ -220,10 +245,10 @@ This is the demo page of our paper submitted to ICLR:
 	<source src="wavs/original_show_2T8QRK60cWaPQflfo6Wuc4-4oTO10xL7hQQS2fuXBy1d7.wav" type="audio/wav" />
 </audio>
 
-[**VoiceNoNG:**]  
+[**Proposed VoiceNoNG:**]  
 
 <audio style="width:320px" controls="controls">
-	<source src="wavs/VoiceNoNG_show_2T8QRK60cWaPQflfo6Wuc4-4oTO10xL7hQQS2fuXBy1d7.redit.round-0" type="audio/wav" />
+	<source src="wavs/VoiceNoNG_show_2T8QRK60cWaPQflfo6Wuc4-4oTO10xL7hQQS2fuXBy1d7.redit.round-0.wav" type="audio/wav" />
 </audio>
 
 [**VoiceCraft:**] 
@@ -243,3 +268,73 @@ This is the demo page of our paper submitted to ICLR:
 <audio style="width:320px" controls="controls">
 	<source src="wavs/Post-quantization_show_2T8QRK60cWaPQflfo6Wuc4-4oTO10xL7hQQS2fuXBy1d7.redit.round-0.wav" type="audio/wav" />
 </audio>
+
+=================================================================================================================
+
+### Examples of editing speech from movie/Youtube:
+
+**Example 1-1: Spider-Man[https://www.youtube.com/watch?v=guuYU74wU70&t=71s] (2002) **
+
+<img src="img/Spider.png" alt="MarineGEO circle logo" style="height: 100px; width:100px;"/>
+
+***Original transcript:*** With **Great Power**, comes Great Responsibility  	
+
+***Target transcript:*** With **more GPU**, comes Great Responsibility.
+
+[**Original**:]
+
+<audio style="width:320px" controls="controls">
+	<source src="wavs/With Great Power Comes Great Responsibility.wav" type="audio/wav" />
+</audio>
+
+[**Proposed VoiceNoNG:**]  
+
+<audio style="width:320px" controls="controls">
+	<source src="wavs/With more GPU Comes Great Responsibility_gen 1.wav" type="audio/wav" />
+</audio>
+
+-----------------------------------------------------------
+
+**Example 1-2:**
+
+***Original transcript:*** With **Great Power**, comes Great Responsibility  	
+
+***Target transcript:*** With more **computational resources**, comes Great Responsibility.
+
+
+[**Original**:]
+
+<audio style="width:320px" controls="controls">
+	<source src="wavs/With Great Power Comes Great Responsibility.wav" type="audio/wav" />
+</audio>
+
+[**Proposed VoiceNoNG:**]  
+
+<audio style="width:320px" controls="controls">
+	<source src="wavs/With more computational resources Comes Great Responsibility_gen.wav" type="audio/wav" />
+</audio>
+
+-----------------------------------------------------------
+
+**Example 2: Harry Potter and the Philosopher's Stone [https://youtu.be/ibRcSCRAyTA?t=22] (2001) **
+
+<img src="img/Harry Potter.png" alt="MarineGEO circle logo" style="height: 100px; width:100px;"/>
+
+***Original transcript:*** Dear Mr. Potter, we are pleased to inform you that you have been **accepted at** Hogwarts School of Witchcraft and Wizardry.   	
+
+***Target transcript:*** Dear Mr. Potter, we are pleased to inform you that you have been **expelled from** Hogwarts School of Witchcraft and Wizardry.
+
+[**Original**:]
+
+<audio style="width:320px" controls="controls">
+	<source src="wavs/Dear Mr. Potter, we are pleased to inform you that you have been accepted at Hogwarts School of Witchcraft and Wizardry.wav" type="audio/wav" />
+</audio>
+
+[**Proposed VoiceNoNG:**]  
+
+<audio style="width:320px" controls="controls">
+	<source src="wavs/Dear Mr. Potter, we are pleased to inform you that you have been expelled from Hogwarts School of Witchcraft and Wizardry_gen 1.wav" type="audio/wav" />
+</audio>
+(Can keep the British Accent and even successfully generate background music!)
+
+
