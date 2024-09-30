@@ -275,7 +275,9 @@ for mister van brandt she rejoined and i accept your help gratefully.
 
 **Example 1-1: Spider-Man[https://www.youtube.com/watch?v=guuYU74wU70&t=71s] (2002) **
 
-<img src="img/Spider.png" alt="MarineGEO circle logo" style="height: 100px; width:100px;"/>
+![teaser](img/Spider.png)
+
+<img src="img/Spider.png"/>
 
 ***Original transcript:*** With **Great Power**, comes Great Responsibility  	
 
@@ -318,7 +320,7 @@ for mister van brandt she rejoined and i accept your help gratefully.
 
 **Example 2: Harry Potter and the Philosopher's Stone [https://youtu.be/ibRcSCRAyTA?t=22] (2001) **
 
-<img src="img/Harry Potter.png" alt="MarineGEO circle logo" style="height: 100px; width:100px;"/>
+<img src="img/Harry Potter.png"/>
 
 ***Original transcript:*** Dear Mr. Potter, we are pleased to inform you that you have been **accepted at** Hogwarts School of Witchcraft and Wizardry.   	
 
